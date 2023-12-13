@@ -261,9 +261,12 @@ p
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    height: 500px;
 }
 .about .content .textbox
 {
+    margin-top: auto;
+    margin-bottom: auto;
     width: 49%;
     min-width: 48%;
 }
@@ -273,7 +276,7 @@ p
 }
 .about .content .imgBox img
 {
-    max-width: 100%;  
+    width: 100%;
 }
 .services .content
 {
@@ -294,7 +297,7 @@ p
 }
 .services .content .servicesbox img
 {
-    max-width: 50px;
+    max-width: 100px;
 }
 .services .content .servicesbox h2
 {
@@ -470,18 +473,18 @@ p
     resize: none;
     height: 200px;
 }
-.Contact .contactForm .row2 input[type="submit"]
+.Contact .contactForm .row2 a
 {
     background: var(--black2);
     color: #fff;
     padding: 10px 30px;
     display: flex;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 0;
     cursor: pointer;
     font-size: 16px;
     text-transform: uppercase;
-    max-width: 150px;
+    max-width: 190px;
     border: none;
 }
 .copyright
